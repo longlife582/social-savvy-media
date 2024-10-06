@@ -195,7 +195,7 @@ form{
 }
 
 .input-container{
-    width: 70%;
+    width: 100%;
     position: relative;
 }
 
@@ -542,6 +542,11 @@ footer{
     }
     .info i {
         font-size: 2rem;
+    }
+
+    .input-container{
+        width: 70%;
+        ;
     }
 
 }
