@@ -365,6 +365,19 @@ footer{
     color: white;
 }
 
+.span{
+  color: #98623c;
+}
+
+
+.img-just{
+  border-radius: 34%;
+  width: 470px;
+
+  padding: 40px;
+}
+
+
 .logo img{
     width: 80px;
     margin: .7rem;
@@ -431,6 +444,13 @@ footer{
     display: none;
 }
 
+.d h3{
+  font-size: 12px; text-align: center ; color: black; margin-top: -30px;
+}
+
+.d h1{
+  font-size: 23px; padding: 20px;
+}
 
 
 @media screen and (min-width: 768px){
@@ -637,6 +657,27 @@ footer{
 
     .testimo-cards h2{
       font-size: 1.1rem;
+    }
+
+    .text-just{
+      display: flex;
+     flex-direction: row;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+    }
+
+    .d h3{
+      margin-top: 0px;
+      font-size: 1rem;
+    }
+
+    .d p{
+      padding: .625rem;
+    }
+
+    .d h1{
+      font-size: 2.2rem;
     }
 
     }
