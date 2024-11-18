@@ -67,7 +67,7 @@
             <div class="about-text">
                 <div class="about-h1">
                     <h1>about us</h1> 
-                    <p>Social Savvy Media is a Social Media Management Agency that specializes in creating, implementing and sharing contents that showcase your personality,values and passion. We help you build a strong online presence,grow your community, and engage with your audience in meaningful ways through consistent posting and creating content strategies that align with your brand's values and vision.</p>
+                    <p>Social Savvy Media is a Social Media Management Agency that specializes in creating, implementing and sharing contents that showcase your personality,values and passion.</p>
                 </div>
 
                 <div class="about-img">
@@ -86,10 +86,27 @@
 
                
                     <div class="d">
-                        <h1 >How We Amplified Our Client's Instagram Reach  <span class="span"> By 112% In Just 30 Days!</span></h1>
-                         <h3>You read that right 112% in only one month!</h3>
-                        <p style="color: #98623c; ">If you are wondering if we poured thousands into ads, the answer is no. This growth was achieved through a carefully crafted organic strategy, leveraging high-quality content, audience insights, and engagement tactics tailored specifically for our clients unique brand.</p>
-           
+                        <h1 >How we a client increase her visibility From  <span class="span">zero views to more than 1k views!</span></h1>
+                         
+                        <div class="content">
+                            <!-- Visible part of the content -->
+                            <span class="visible-text">
+                              Recently, I onboarded a lash tech client who struggled with visibility on Instagram. After analyzing her account, my team and I discovered the issue, most of her followers were bots. 
+                            </span>
+                            
+                            <!-- Hidden part of the content -->
+                            <span class="hidden more-text">
+                              While fake followers might inflate follower count, they don’t engage with your content or drive business.
+                        
+                              We immediately took action by removing all fake accounts and crafting a tailored content strategy for her brand. As part of the strategy, we created a 45-second reel showcasing why her brand is a leader in the lash industry, using niche-specific keywords and hashtags. In just 13 hours, the video gained over 1,000 views and significantly improved her brand's visibility.
+                        
+                              This success was the result of a well-executed strategy and expert account management. Want to elevate your brand’s visibility? <a href="./contact.html">Click here to get started today!</a>
+                            </span>
+                            
+                            <!-- Toggle button -->
+                            <span class="toggle-btn" onclick="toggleContent()">Show More</span>
+                          </div>
+                        
                     </div>
 
             </div>
@@ -201,5 +218,23 @@
         </div>
     </footer>
     <script src="./JS/index.js"></script>
+    <script>
+        // JavaScript function to handle the content toggle
+        function toggleContent() {
+          // Get the hidden text and toggle button
+          const moreText = document.querySelector('.more-text');
+          const toggleBtn = document.querySelector('.toggle-btn');
+          
+          // Toggle the hidden class
+          moreText.classList.toggle('hidden');
+          
+          // Change button text based on visibility
+          if (moreText.classList.contains('hidden')) {
+            toggleBtn.textContent = 'Show More';
+          } else {
+            toggleBtn.textContent = 'Show Less';
+          }
+        }
+      </script>
 </body>
 </html>
